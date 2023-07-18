@@ -1,0 +1,147 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+html[data-theme='light']{
+    --tr-bg-dark:var(--bs-white);
+    --tr-text-dark:var(--pdf-zinc-900);
+}
+
+html[data-theme='dark']{
+    --tr-bg-dark:var(--pdf-zinc-900);
+    --tr-text-dark:var(--pdf-slate-200);
+}
+body{
+    background-color: var(--tr-bg-dark);
+    color:var(--tr-text-dark);
+}
+
+ .card {
+    background-color: var(--tr-bg-dark);
+    color:var(--tr-text-dark);
+    
+} 
+.card-body {
+    color:var(--tr-text-dark);
+}
+.card p {
+    color:var(--tr-text-dark);
+}
+.navbar{
+    background-color: var(--tr-bg-dark)!important;
+    
+}
+.navbar{
+    background-color: var(--tr-bg-dark)!important;
+    
+}
+.navbar a{
+    
+    color:var(--tr-text-dark)!important;
+}
+.navbar-control{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.service-icon{
+    width: 50px;
+    height:50px;
+}
+.rounded-5{
+    border-radius: 10px;
+}
+.our-team-icon{
+    margin-top: -50px;
+}
+.form-map{
+    width: 100%;
+}
+.footer-fixed{
+    position: fixed;
+    bottom:30px;
+    right:30px;
+}
+.footer-icon{
+    width:50px;
+    height: 50px;
+    background: #007bff;
+   
+    z-index: 5;
+}
+.footer-fixed.show{
+    display: block!important;
+}
+/* menu-icon */
+.menu-icon{
+    width: 50px;
+    height:50px;
+    /* background-color:var();  */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.menu-icon span{
+    width: 40px;
+    height: 4px;
+    background-color:var(--tr-text-dark);
+    position: absolute;
+    transition: 0.5s;
+}
+.menu-icon span:nth-child(1){
+    transform: translateY(-15px);
+    width: 25px;
+    left: 5px;
+}
+.menu-icon span:nth-child(2){
+    transform: translateY(15px);
+    width: 25px;
+    left: 5px;
+}
+.menu-icon.show span:nth-child(3){
+    transform: translateY(60px);
+}
+.menu-icon.show span:nth-child(1){
+    transform: translateY(0) rotate(45deg);
+    width: 40px;
+    left: 5px;
+    transition: 0.125s;
+}
+.menu-icon.show span:nth-child(2){
+    transform: translateY(0) rotate(315deg);
+    width: 40px;
+    left: 5px;
+    transition: 0.25s;
+}
+.o-n:focus{
+box-shadow: none;
+}
+
+/* @media screen and (max-width:576px){
+    .our-team-icon{
+        margin-top: -35px;}
+} */
+@media screen and (max-width:768px){
+    .our-team-icon{
+        margin-top: -35px;}
+}
+@media screen and (max-width:768px){
+    .foot{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .team{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:576px){
+    .footer-fixed{
+        bottom: 100px;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "colormyar": "^1.1.0",
+    "waypoints": "^4.0.1"
+  },
+  "name": "bs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
