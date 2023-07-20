@@ -15,33 +15,46 @@
     <link rel="stylesheet" href="node_modules/colormyar/css/pdf.css">
  </head>
 <body>
+
+  <div class="loading">
+    <span class="loader"></span>
+  </div>
     <!-- nav bar -->
     <nav class="navbar shadow-lg border-bottom navbar-expand-lg bg-body-tertiary animate__animated animate__fadeInDown">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Camer</a>
           <button class="navbar-toggler p-0 o-n" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="menu-icon">
-              <span></span><span></span><span></span>
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
 
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link"  href="#about">About</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link ">Service</a>
+                <a class="nav-link " href="#services">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ">Blog</a>
+                <a class="nav-link " href="#portfolio">Category</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ">Contact</a>
+                <a class="nav-link " href="#team">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#port">portfolio</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
               </li>
             </ul>
             
@@ -50,9 +63,9 @@
       </nav>
 
       <!-- home -->
-      <div class="container my-5">
+      <div id="home" class="container my-5">
         <div class="row justify-content-between align-items-center">
-            <div class=" col-md-8 col-lg-5 mb-3">
+            <div class=" col-md-8 col-lg-5 mb-3 headline">
                 <div class="">
                     <span>Get Started</span>
                     <h1 class="fw-bold">
@@ -68,9 +81,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-6 col-lg-6 headline">
                 <div class="">
-                    <img class="w-100" src="assets/Na_Dec_38.jpg"/>
+                    <img class="w-100" src="assets/photo.1.png"/>
                 </div>
             </div>
         </div>
@@ -80,8 +93,8 @@
        <div id="services" class="container my-5">
         <div class="row  justify-content-between align-items-center">
           <!-- left -->
-          <div class="col-xl-4 mb-5 mb-lg-0 mb-5">
-            <div class="">
+          <div class="col-xl-4 mb-5 mb-lg-0 mb-5 headline">
+            <div class="mb-5">
               <span>Get Started</span>
                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatem.</h1>
            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iusto esse est iure molestias, voluptatum error ratione sit voluptates incidunt.</p>
@@ -91,7 +104,7 @@
           <!-- right -->
           <div class="col-xl-6 mt-5">
             <div class="row g-4">
-              <div class="col-md-6 ">
+              <div class="col-md-6 headline">
                 <div class="card shadow-zinc-300 shadow-xl border-0 rounded-5">
                   <div class="card-body p-4">
                     <div class="">
@@ -105,7 +118,7 @@
                   </div>
                 </div>
              </div>
-             <div class="col-md-6 ">
+             <div class="col-md-6 headline">
               <div class="card shadow-zinc-300 shadow-xl  border-0 rounded-5 ">
                 <div class="card-body p-4">
                   <div class="">
@@ -119,7 +132,7 @@
                 </div>
               </div>
            </div>
-           <div class="col-md-6 ">
+           <div class="col-md-6 headline">
             <div class="card shadow-zinc-300 shadow-xl border-0 rounded-5">
               <div class="card-body p-4">
                 <div class="">
@@ -133,7 +146,7 @@
               </div>
             </div>
          </div>
-         <div class="col-md-6 ">
+         <div class="col-md-6 headline">
           <div class="card shadow-zinc-300 shadow-xl  border-0 rounded-5">
             <div class="card-body p-4">
               <div class="">
@@ -157,13 +170,13 @@
        <div id="about" class="container my-5">
         <div class="row justify-content-between align-items-center">
           <!-- left -->
-          <div class="col-lg-6 mb-4 ">
+          <div class="col-lg-6 mb-4 headline">
             <div class="">
               <img src="assets/blue-alarm-clock-white-background.jpg" class="w-100 shadow-zinc-300 shadow-xl rounded-5">
             </div>
           </div>
           <!-- right -->
-          <div class="col-lg-6">
+          <div class="col-lg-6 headline">
             <div class="">
                 <span>Get Started</span>
                 <h1>
@@ -196,7 +209,7 @@
         <!-- left -->
         <div class="col-lg-6 mb-4">
           <div class="row g-4">
-            <div class="col-lg-6">
+            <div class="col-lg-6  headline ">
               <div class="card  shadow-zinc-300 shadow-xl  border-0 rounded-5">
                 <div class="card-body p-4">
                   <div class="">
@@ -210,7 +223,7 @@
                 </div>
               </div>
            </div>
-           <div class="col-lg-6">
+           <div class="col-lg-6 headline">
             <div class="card  shadow-zinc-300 shadow-xl border-0 rounded-5 ">
               <div class="card-body p-4">
                 <div class="">
@@ -224,7 +237,7 @@
               </div>
             </div>
          </div>
-         <div class="col-lg-6">
+         <div class="col-lg-6 headline">
           <div class="card  shadow-zinc-300 shadow-xl  border-0 rounded-5">
             <div class="card-body p-4">
               <div class="">
@@ -238,7 +251,7 @@
             </div>
           </div>
        </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 headline">
         <div class="card shadow-zinc-300 shadow-xl border-0 rounded-5">
           <div class="card-body p-4">
             <div class="">
@@ -258,7 +271,7 @@
       <!-- right -->
       <div class="col-lg-6">
         <div class="row g-4">
-          <div class="col-lg-6">
+          <div class="col-lg-6  headline">
             <div class="card shadow-zinc-300 shadow-xl  border-0 rounded-5">
               <div class="card-body p-4">
                 <div class="">
@@ -272,7 +285,7 @@
               </div>
             </div>
          </div>
-         <div class="col-lg-6">
+         <div class="col-lg-6 headline">
           <div class="card  shadow-zinc-300 shadow-xl  border-0 rounded-5 ">
             <div class="card-body p-4">
               <div class="">
@@ -286,7 +299,7 @@
             </div>
           </div>
        </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 headline">
         <div class="card  shadow-zinc-300 shadow-xl  border-0 rounded-5">
           <div class="card-body p-4">
             <div class="">
@@ -300,7 +313,7 @@
           </div>
         </div>
      </div>
-     <div class="col-lg-6">
+     <div class="col-lg-6 headline">
       <div class="card  shadow-zinc-300 shadow-xl  border-0 rounded-5">
         <div class="card-body p-4">
           <div class="">
@@ -331,7 +344,7 @@
     </div>
   </div>
   <div class="row g-4">
-    <div class="col-xl-6 col-md-6 ">
+    <div class="col-xl-6 col-md-6 headline ">
       <div class="card mb-3 rounded-5" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
@@ -354,7 +367,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xl-6 col-md-6">
+    <div class="col-xl-6 col-md-6 headline">
       <div class="card mb-3  rounded-5" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
@@ -377,7 +390,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xl-6 col-md-6">
+    <div class="col-xl-6 col-md-6 headline">
       <div class="card mb-3  rounded-5" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
@@ -400,7 +413,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xl-6 col-md-6">
+    <div class="col-xl-6 col-md-6 headline">
       <div class="card mb-3  rounded-5" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
@@ -437,7 +450,7 @@
     </div>
   <div class="row">
     <div class="">
-      <div id="carouselExampleCaptions" class="carousel slide">
+      <div id="carouselExampleCaptions" class="carousel slide headline">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -482,7 +495,7 @@
   </div>
     <div class="row gy-5 g-xl-3 ">
       
-      <div class="col-xl-3">
+      <div class="col-xl-3 headline">
         <div class="card  shadow-zinc-300 shadow-xl border-0 rounded-5 ">
           
           <div class="card-body ">
@@ -501,7 +514,7 @@
         </div>
       </div>
     
-      <div class="col-xl-3">
+      <div class="col-xl-3 headline">
         <div class="card  shadow-zinc-300 shadow-xl border-0 rounded-5 ">
           
           <div class="card-body ">
@@ -520,7 +533,7 @@
         </div>
       </div>
     
-      <div class="col-xl-3">
+      <div class="col-xl-3 headline">
         <div class="card  shadow-zinc-300 shadow-xl border-0 rounded-5 ">
           
           <div class="card-body ">
@@ -539,7 +552,7 @@
         </div>
       </div>
     
-        <div class="col-xl-3">
+        <div class="col-xl-3 headline">
           <div class="card  shadow-zinc-300 shadow-xl border-0 rounded-5 ">
             
             <div class="card-body ">
@@ -572,7 +585,7 @@
       </div>
   </div>
   <div class="row">
-    <div class="col-lg-4 team mb-3">
+    <div class="col-lg-4 team mb-3 headline">
       <div class="card border-0 rounded-5 shadow-zinc-300 shadow-xl">
        <div class="card-body   p-4">
         <div class="d-flex justify-content-between align-items-center ">
@@ -614,7 +627,7 @@
         </div>
        </div>
       </div>
-      <div class="col-lg-4 team mb-3">
+      <div class="col-lg-4 team mb-3 headline">
         <div class="card shadow-zinc-300 shadow-xl border-0 rounded-5 ">
          <div class="card-body  p-4">
           <div class="d-flex justify-content-between align-items-center ">
@@ -656,7 +669,7 @@
           </div>
          </div>
         </div>
-        <div class="col-lg-4 team mb-3">
+        <div class="col-lg-4 team mb-3 headline">
           <div class="card shadow-zinc-300 shadow-xl border-0 rounded-5 ">
            <div class="card-body  p-4">
             <div class="d-flex justify-content-between align-items-center ">
@@ -703,16 +716,16 @@
   </div>
 </div>
 <!-- contant form -->
-<div class="container">
+<div id="contact" class="container">
   <div class="row">
-    <div class="col-xl-4">
+    <div class="col-xl-4 headline">
       <div class="">
         <div class="">
           <h3>Get In Touch</h3>
           <p> Tempore veniam enim, quae facere dolore rem culpa sed, ipsum tempora unde praesentium, hic itaque ducimus quidem? Quae nam a voluptate veniam.</p>
 
         </div>
-       <div class="card shadow-zinc-300 shadow-xl border-0  rounded-5  mb-3">
+       <div class="card shadow-zinc-300 shadow-xl border-0  rounded-5  mb-3 headline">
         <div class="card-body ">
           <div class="row justify-content-start align-items-center">
             <div class="col-2">
@@ -730,7 +743,7 @@
         </div>
         </div>
        </div>
-       <div class="card border-0 shadow-zinc-300 shadow-xl  rounded-5  mb-3">
+       <div class="card border-0 shadow-zinc-300 shadow-xl  rounded-5  mb-3 headline">
         <div class="card-body ">
           <div class="row justify-content-start align-items-center">
             <div class="col-2">
@@ -748,7 +761,7 @@
         </div>
         </div>
        </div>
-       <div class="card border-0  shadow-zinc-300 shadow-xl rounded-5  mb-3">
+       <div class="card border-0  shadow-zinc-300 shadow-xl rounded-5  mb-3 headline">
         <div class="card-body">
           <div class="row justify-content-start align-items-center">
             <div class="col-2">
@@ -768,12 +781,12 @@
        </div>
     </div>
     </div>
-    <div class="col-xl-4">
+    <div class="col-xl-4 headline">
       <div class="">
         <iframe class="rounded-5 form-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488797.97857519786!2d95.85189069479304!3d16.839536847652212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon%2C%20Myanmar%20(Burma)!5e0!3m2!1sen!2suk!4v1688892582557!5m2!1sen!2suk"  height="510" width="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <div class="col-xl-4">
+    <div class="col-xl-4 headline">
       <div class="">
         <p class="fw-bold mb-1">Send A Request</p>
         <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
@@ -791,18 +804,18 @@
 <!-- footer -->
 <div class="container border-top my-5 pt-5">
   <div class="row justify-content-center align-items-center pb-5">
-    <div class="col-6">
+    <div class="col-6 headline">
        <div class="text-center">
-     <div class="mb-5">
-      <h2 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+     <div class="mb-5  ">
+      <h2 class="mb-3 headline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+      <p class="headline">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
      </div>
       
       <div class="my-3 ">
-        <a href="#" class="btn btn-danger px-3 rounded-pill me-2 foot pdf-bg-red-700 shadow-yellow-700 shadow-2xl me-3" ><i class="fab fa-apple me-2"></i>Download</a>
-        <a href="#" class="btn btn-success px-3 rounded-pill me-2 foot pdf-bg-yellow-400 shadow-yellow-600 shadow-2xl me-3" ><i class="fab fa-google-play me-2"></i>Download</a>
+        <a href="#" class="btn btn-danger  px-3 rounded-pill me-2  headline foot pdf-bg-red-700 shadow-yellow-700 shadow-2xl me-3" ><i class="fab fa-apple me-2"></i>Download</a>
+        <a href="#" class="btn btn-success  px-3 rounded-pill me-2 headline foot pdf-bg-yellow-400 shadow-yellow-600 shadow-2xl me-3" ><i class="fab fa-google-play me-2"></i>Download</a>
       </div>
-      <div class="">
+      <div class=" headline">
         <a href="#" class="text-decoration-none text-muted mx-4">Home</a>
         <a href="#" class="text-decoration-none text-muted mx-4">Home</a>
         <a href="#" class="text-decoration-none text-muted mx-4">Home</a>
@@ -840,8 +853,29 @@
     <i class="fas fa-angle-up"></i>
   </div>
 </div>
+
+
 <script src="node_modules/waypoints/lib/noframework.waypoints.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="assets/cus.js"></script>
+   <script>
+
+    window.addEventListener('load',_ =>{
+      document.querySelector('.loading').style.display ='none';
+    })
+
+
+    ScrollReveal({origin:'bottom',
+   distance:'200px',
+   duration:2000,
+   reset:true,
+  
+  }
+   ).reveal('.headline',{  interval:0,scale:0.8,viewFactor:0.2});
+   </script>
+
+
+
 </body>
 </html>

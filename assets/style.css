@@ -15,6 +15,58 @@ body{
     color:var(--tr-text-dark);
 }
 
+
+/* load */
+.loading{
+    width: 100%;
+height: 100vh;
+background-color:var(--tr-bg-dark);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 5;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s;
+}
+.loader {
+width: 48px;
+height: 48px;
+border: 5px solid var(--tr-text-dark);
+/* background-color:  var(--tr-text-dark); */
+border-bottom-color: transparent;
+border-radius: 50%;
+display: inline-block;
+box-sizing: border-box;
+animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+/* .navbar a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #eeff22;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+} */
  .card {
     background-color: var(--tr-bg-dark);
     color:var(--tr-text-dark);
